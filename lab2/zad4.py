@@ -36,8 +36,8 @@ def plot_mandelbrot(fractal):
 
 # Ustawienia zakresu i rozdzielczości
 xmin, xmax, ymin, ymax = -2, 1, -1.5, 1.5
-width, height = 3840, 2160
-max_iter = 10000
+width, height = 800, 600
+max_iter = 1000
 
 # Obliczanie i rysowanie fraktala Mandelbrota
 fractal = compute_mandelbrot(xmin, xmax, ymin, ymax, width, height, max_iter)
